@@ -1,4 +1,5 @@
 export interface EntryParam {
+    name?: string;
     entry: string;
     template?: string;
     outPath?: string;
